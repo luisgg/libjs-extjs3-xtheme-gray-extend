@@ -5,13 +5,14 @@
 clean:
 	dh_testdir
 	dh_testroot
-	find . -maxdepth 1 -not -iname "debian" -not -iname "*.zip" -not -name ".*" -exec rm -r '{}' \;
+	#find . -maxdepth 1 -not -iname "debian" -not -iname "*.zip" -not -name ".*" -exec rm -r '{}' \;
+	rm -fr xtheme-gray-extend
 	dh_clean
 
 extract: extract-stamp
 extract-stamp:
-	unzip $(CURDIR)/../sources/xtheme-gray-extend.zip
-	mv $(CURDIR)/xtheme-gray-extend/* $(CURDIR)
+	unzip /usr/share/omv-extra-sources/sources/sources/xtheme-gray-extend.zip
+	#mv $(CURDIR)/xtheme-gray-extend/* $(CURDIR)
 	touch extract-stamp
 
 configure: configure-stamp

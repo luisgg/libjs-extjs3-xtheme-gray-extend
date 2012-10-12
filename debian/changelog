@@ -1,3 +1,10 @@
+libjs-extjs3-xtheme-gray-extend (3.0.3+svn161-0aurex1) precise; urgency=low
+
+  * Upstream snapshot based on 'trunk' revision 161 (2012-10-12)
+  * Rebuild for aurex 12.04
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Fri, 12 Oct 2012 20:50:53 +0200
+
 libjs-extjs3-xtheme-gray-extend (3.0.3) stable; urgency=low
 
   * New upstream release
